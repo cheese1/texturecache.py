@@ -525,7 +525,7 @@ Specify a filename for the `logfile` property, to log detailed processing inform
 
 Use `download.threads` to vary the number of threads used when downloading and caching data. Class specific values can also be used, eg. `download.threads.movies`. Any class without a specific value will use `download.threads`.
 
-Specify a comma delimited list of pattherns in `singlethread.urls` to force downloads corresponding with those URLs on a single thread, necessary for sites that limit the number of concurrent requests. One such site is fanart.tv, hence the default value includes `assets\.fanart\.tv`.
+Specify a comma delimited list of patterns in `singlethread.urls` to force downloads corresponding with those URLs on a single thread, necessary for sites that limit the number of concurrent requests. One such site is fanart.tv, hence the default value includes `assets\.fanart\.tv`.
 
 When identifying `missing` media files (ie. files that are not present in the media library), additional audio and video file types can be included by specifying a comma delimited list of file extensions for `audio.filetypes` and `video.filetypes` respectively (eg. `wmv, ogg`). All current Kodi audio and video file extensions are supported by default.
 
